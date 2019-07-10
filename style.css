@@ -44,6 +44,8 @@ img {
   margin: 2rem 0;
   padding: 6px;
   border: 1px solid darkblue;
+  border-radius: 6px;
+  cursor: pointer;
   background-color: #144e4c;
   color: #fff;
   transition: all 0.3s;

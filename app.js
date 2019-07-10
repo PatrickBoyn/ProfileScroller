@@ -24,3 +24,11 @@ const data = [
     image: 'https://randomuser.me/api/portraits/men/25.jpg'
   }
 ];
+
+function profileIterator(profiles) {
+  let nextIndex = 0;
+
+  return {
+    next: function() {}
+  };
+}

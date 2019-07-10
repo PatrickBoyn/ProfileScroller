@@ -40,6 +40,10 @@ function nextProfile() {
     <li class="list-group-item">Looking for: ${currentProfile.lookingfor}</li>
     <li class="list-group-item" Location: >${currentProfile.loocation}</li>
   </ul>`;
+
+  document.getElementById('imageDisplay').innerHTML = `<img src="${
+    currentProfile.image
+  }">`;
 }
 
 function profileIterator(profiles) {

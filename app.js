@@ -32,7 +32,14 @@ document.getElementById('next').addEventListener('click', nextProfile);
 function nextProfile() {
   const currentProfile = profiles.next().value;
 
-  document.getElementById('profileDisplay').innerHTML = ``;
+  document.getElementById('profileDisplay').innerHTML = `
+  <ul class="list-group">
+    <li class="list-group-item">Name: ${currentProfile.name}</li>
+    <li class="list-group-item">Age: ${currentProfile.age}</li>
+    <li class="list-group-item">Gender: ${currentProfile.gender}</li>
+    <li class="list-group-item">Looking for: ${currentProfile.lookingfor}</li>
+    <li class="list-group-item" Location: >${currentProfile.loocation}</li>
+  </ul>`;
 }
 
 function profileIterator(profiles) {

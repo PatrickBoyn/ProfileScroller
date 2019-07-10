@@ -40,3 +40,7 @@ img {
 .list-group-item {
   padding: 4px;
 }
+.btn {
+  margin: 2rem 0;
+  padding: 6px;
+}

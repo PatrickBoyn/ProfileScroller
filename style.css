@@ -17,6 +17,8 @@ h1 {
 }
 img {
   margin: 1.3rem;
+  border-radius: 6px;
+  border: 1px solid darkblue;
 }
 ::selection {
   background-color: #42f5ef;

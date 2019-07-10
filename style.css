@@ -46,4 +46,10 @@ img {
   border: 1px solid darkblue;
   background-color: #144e4c;
   color: #fff;
+  transition: all 0.3s;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+}
+.btn:hover {
+  background-color: #248784;
+  color: #000;
 }

@@ -34,3 +34,9 @@ img {
   font-size: 1.3rem;
   box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.4);
 }
+.list-group {
+  list-style: none;
+}
+.list-group-item {
+  padding: 4px;
+}

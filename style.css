@@ -43,4 +43,7 @@ img {
 .btn {
   margin: 2rem 0;
   padding: 6px;
+  border: 1px solid darkblue;
+  background-color: #144e4c;
+  color: #fff;
 }

@@ -27,6 +27,8 @@ const data = [
 
 const profiles = profileIterator(data);
 
+document.getElementById('next').addEventListener('click', nextProfile);
+
 function profileIterator(profiles) {
   let nextIndex = 0;
 

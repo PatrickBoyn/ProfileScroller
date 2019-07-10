@@ -25,6 +25,8 @@ const data = [
   }
 ];
 
+const profiles = profileIterator(data);
+
 function profileIterator(profiles) {
   let nextIndex = 0;
 

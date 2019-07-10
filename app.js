@@ -29,7 +29,11 @@ const profiles = profileIterator(data);
 
 document.getElementById('next').addEventListener('click', nextProfile);
 
-function nextProfile() {}
+function nextProfile() {
+  const currentProfile = profiles.next().value;
+
+  document.getElementById('profileDisplay').innerHTML = ``;
+}
 
 function profileIterator(profiles) {
   let nextIndex = 0;

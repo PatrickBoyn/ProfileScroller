@@ -12,6 +12,12 @@ body {
   padding: 1.5rem;
   box-sizing: border-box;
 }
+h1 {
+  margin: 2rem 0;
+}
+img {
+  margin: 1.3rem;
+}
 ::selection {
   background-color: #42f5ef;
 }

@@ -12,7 +12,7 @@ const data = [
     age: 26,
     gender: 'female',
     lookingfor: 'male',
-    loocation: 'Pheonix AZ',
+    loocation: 'Phoenix AZ',
     image: 'https://randomuser.me/api/portraits/women/2.jpg'
   },
   {
